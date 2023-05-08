@@ -1,0 +1,86 @@
+.form-container-3 {
+    width: 400px;
+    height: 880px; /* Add this line */
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-top: 130px;
+    margin-bottom: 25px;
+  }
+  
+  /* Form input fields */
+  .form-container-3 input[type=text],
+  .form-container-3 input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-container-3 button[type="submit"] {
+    background-color: #20F5C1;
+    color: black;
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+    margin-top: 20px;
+  }
+  
+  .form-container-3 button[type="submit"]:hover {
+    background-color: #07C99A;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    color: white;
+    background-color: black;
+  }
+  
+  /* Cancel button */
+  .form-container-3 button[type=Cancel] {
+    background-color: #757575;
+    color: white;
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+    margin-top: 20px;
+  }
+
+  .form-container-3 button[type="Cancel"]:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+  }
+  
+  /* Login form header */
+  .form-container-3 h2 {
+    text-align: center;
+    color: black;
+  }
+  
+  /* Error message */
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Success message */
+  .success-message {
+    color: #ADD8E6;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  body {
+    background: white;
+  }
+  

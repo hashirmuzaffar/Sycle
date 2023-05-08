@@ -1,0 +1,83 @@
+.form-container {
+    width: 400px;
+    height: 400px; /* Add this line */
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Form input fields */
+  .form-container input[type=text],
+  .form-container input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Login button */
+  .form-container button[type=submit] {
+    background-color: #E8CFB5;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 49%;
+    font-size: 16px;
+    margin-top: 20px; /* add margin to bottom */
+  }
+
+  .form-container button[type="submit"]:hover {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Cancel button */
+  .form-container button[type=button] {
+    background-color: #757575;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 49%;
+    font-size: 16px;
+    margin-left: 2%;
+    margin-top: 20px; /* add margin to bottom */
+  }
+  
+  /* Login form header */
+  .form-container h2 {
+    text-align: center;
+    color: black;
+    margin-top: 10px; /* add margin to bottom */
+  }
+  
+  /* Error message */
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Success message */
+  .success-message {
+    color: #ADD8E6;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  body {
+    background: white;
+  }
+  

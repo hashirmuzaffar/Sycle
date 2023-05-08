@@ -1,0 +1,74 @@
+.form-container-2 {
+    width: 400px;
+    height:fit-content; /* changed height to 100% */
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 100px;
+  }
+  
+  .form-container-2 label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .form-container-2 input[type="text"],
+  .form-container-2 input[type="number"],
+  .form-container-2 select,
+  .form-container-2 textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-container-2 textarea {
+    height: 100px;
+  }
+  
+  .form-container-2 input[type="radio"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+
+  .form-container-2 button[type="submit"] {
+    background-color: #ADD8E6;
+    color: black;
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .form-container-2 button[type="submit"]:hover {
+    background-color: #ADD8E6;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    color: white;
+    background-color: black;
+  }
+
+
+  .form-container-2 h1 {
+    color: #ADD8E6;
+    text-align: center;
+  }
+  
+
+  .form-container-2::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
