@@ -1,25 +1,32 @@
-import logo from './logo.svg';
+import LoginForm from './components/Login/LoginForm';
+import NavigationBar from './components/Navigation/Nav';
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
+import Home from './components/Home/home';
+import ProductForm from './components/Product/ProductForm';
+import SignUpForm from './components/Signup/SignUpForm';
+import Product from './components/Product/Products';
+import FullProductDetail from './components/Product/ProductDetails';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    
+    <BrowserRouter>
+    <NavigationBar/>
+      <Routes>
+        <Route path='/home' element={<Home />} />
+        <Route path='/Login' element={<LoginForm />} />
+        <Route path='/Signup' element={<SignUpForm />} />
+        <Route path='/customer/addnewproduct' element={<ProductForm />} />
+        <Route path='/products' element={<Product />} />
+        <Route path='/product' element={<FullProductDetail />} />
+      </Routes>
+    </BrowserRouter>
     </div>
   );
 }
+
 
 export default App;
